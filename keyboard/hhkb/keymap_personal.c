@@ -19,7 +19,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * |-----------------------------------------------------------|
      * |Shift   |  Z|  X|  C|  V|  B|  N|  M|  ,|  .|  /|Shift |Fn0|
      * `-----------------------------------------------------------'
-     *       |Alt|Gui  |         Space         |Gui  |Alt|
+     *       |Gui|Alt  |         Space         |Alt  |Fn1|
      *       `-------------------------------------------'
      */
     KEYMAP(ESC, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSLS,GRV,   \
@@ -67,6 +67,24 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
                 TRNS,TRNS,          TRNS,               TRNS,TRNS)
 };
 
+    /* Layer 3: Mac OSX Layer
+     * ,-----------------------------------------------------------.
+     * |Esc|  1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  -|  =|  \|  `|
+     * |-----------------------------------------------------------|
+     * |Tab  |  Q|  W|  E|  R|  T|  Y|  U|  I|  O|  P|  [|  ]|Backs|
+     * |-----------------------------------------------------------|
+     * |Gui   |  A|  S|  D|  F|  G|  H|  J|  K|  L|  ;|  '|Enter   |
+     * |-----------------------------------------------------------|
+     * |Shift   |  Z|  X|  C|  V|  B|  N|  M|  ,|  .|  /|Shift |Fn0|
+     * `-----------------------------------------------------------'
+     *       |Ctl|Alt  |         Space         |Alt  |Fn1|
+     *       `-------------------------------------------'
+     */
+    KEYMAP(ESC, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSLS,GRV,   \
+           TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSPC,       \
+           LGUI,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,ENT,             \
+           LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,RSFT,FN0,             \
+                LCTL,LALT,          SPC,                RALT,FN1),
 
 
 /*
