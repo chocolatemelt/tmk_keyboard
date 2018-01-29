@@ -45,7 +45,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     /* Layer 2: HHKB mode (HHKB Fn)
      * ,-----------------------------------------------------------.
-     * |  `|Stp|   |   |   |   |   |Mut|VDn|VUp|Pau|Prv|Nxt|Ins|Del|
+     * |  `|Stp|   |   |   |   |   |   |   |Mut|VDn|VUp|Pau|Prv|Nxt|
      * |-----------------------------------------------------------|
      * |Caps |   |PgU|   |   |   |   |   |Psc|Slk|Pus|Up |   |Backs|
      * |-----------------------------------------------------------|
@@ -56,7 +56,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *       |   |     |                       |     |   |
      *       `-------------------------------------------'
      */
-    KEYMAP(GRV,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,MUTE,VOLD,VOLU,MPLY,MPRV,MNXT, INS, DEL,   \
+    KEYMAP(GRV,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,MUTE,VOLD,VOLU,MPLY,MPRV,MNXT,  \
            CAPS,TRNS,PGUP,TRNS,TRNS,TRNS,TRNS,TRNS,PSCR,SLCK,PAUS, UP, TRNS, BSPC,      \
            TRNS,HOME,PGDN,END,TRNS,TRNS,PAST,PSLS,HOME,PGUP,LEFT,RGHT,PENT,             \
            TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PPLS,PMNS,END, PGDN,DOWN,TRNS,TRNS,            \
